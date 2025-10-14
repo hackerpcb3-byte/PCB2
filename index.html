@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gaming Day - Competencia Escolar</title>
+  <meta name="description" content="Gaming Day: torneo de videojuegos de la escuela. Información, horarios, reglas y registro." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Pequeños toques adicionales */
+    .glow { text-shadow: 0 2px 12px rgba(99,102,241,0.25); }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+  <header class="bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 bg-white/10 rounded-lg flex items-center justify-center text-2xl font-bold">GD</div>
+        <div>
+          <h1 class="text-2xl font-extrabold">Gaming Day</h1>
+          <p class="text-sm opacity-90">Torneo de videojuegos - Escuela Secundaria / Preparatoria</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 items-center">
+        <a href="#about" class="hover:underline">Acerca</a>
+        <a href="#schedule" class="hover:underline">Horario</a>
+        <a href="#rules" class="hover:underline">Reglas</a>
+        <a href="#register" class="hover:underline">Registro</a>
+        <a href="#contact" class="bg-white/10 px-4 py-2 rounded-md">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-12">
+    <!-- Hero -->
+    <section class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl font-extrabold leading-tight glow">¡Prepárate para el Gaming Day!</h2>
+        <p class="mt-4 text-lg text-gray-300">Únete a la competencia de videojuegos de la escuela: partidas, premios y espíritu deportivo. Abierto a estudiantes de todos los grados y niveles.</p>
+        <ul class="mt-6 space-y-2 text-gray-200">
+          <li>🎮 Plataformas: PC y consolas disponibles en el campus.</li>
+          <li>🏆 Premios para los 3 mejores equipos/jugadores.</li>
+          <li>📅 Fecha: <strong>Por confirmar</strong> (consulta el calendario escolar).</li>
+        </ul>
+        <div class="mt-6 flex gap-4">
+          <a href="#register" class="bg-indigo-600 px-5 py-3 rounded-md font-semibold shadow hover:opacity-95">Registrarme</a>
+          <a href="#rules" class="bg-white/10 px-5 py-3 rounded-md">Ver reglas</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="bg-gradient-to-br from-white/5 to-white/3 rounded-2xl p-6 shadow-lg">
+          <h3 class="text-xl font-bold">Torneos previstos</h3>
+          <ol class="mt-4 space-y-3 text-gray-200">
+            <li><strong>Multijugador (Team):</strong> Valorant / Rocket League</li>
+            <li><strong>1 vs 1:</strong> Super Smash Bros. / Tekken</li>
+            <li><strong>Battle Royale:</strong> Fortnite / Apex Legends</li>
+            <li><strong>Fútbol virtual:</strong> FIFA / eFootball</li>
+          </ol>
+          <p class="mt-4 text-sm text-gray-300">¿No ves tu juego? Propónlo en el formulario de registro y veremos la viabilidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mt-12 bg-white/5 rounded-xl p-8">
+      <h3 class="text-2xl font-bold">¿Qué es Gaming Day?</h3>
+      <p class="mt-3 text-gray-200">Gaming Day es un evento organizado por la dirección estudiantil y el departamento de actividades extracurriculares que busca fomentar la competencia sana, el trabajo en equipo y el interés por las disciplinas digitales. Habrá torneos, zonas de libre juego, charlas sobre creación de contenido y talleres cortos.</p>
+
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="p-4 bg-white/3 rounded-lg">
+          <h4 class="font-semibold">Objetivo</h4>
+          <p class="text-sm text-gray-200 mt-2">Reunir a la comunidad estudiantil alrededor del gaming responsable y el aprendizaje colaborativo.</p>
+        </div>
+        <div class="p-4 bg-white/3 rounded-lg">
+          <h4 class="font-semibold">Organización</h4>
+          <p class="text-sm text-gray-200 mt-2">Organizado por el Club de eSports y el Departamento de Tecnologías.</p>
+        </div>
+        <div class="p-4 bg-white/3 rounded-lg">
+          <h4 class="font-semibold">Lugar</h4>
+          <p class="text-sm text-gray-200 mt-2">Auditorio principal y laboratorio de computación de la escuela.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule -->
+    <section id="schedule" class="mt-12">
+      <h3 class="text-2xl font-bold">Horario provisional</h3>
+      <div class="mt-4 grid md:grid-cols-2 gap-6">
+        <div class="bg-white/5 p-6 rounded-lg">
+          <h4 class="font-semibold">Mañana</h4>
+          <ul class="mt-3 text-gray-200 space-y-2">
+            <li>09:00 - 10:00 | Acreditación y setup</li>
+            <li>10:00 - 12:00 | Rondas clasificatorias</li>
+            <li>12:00 - 13:00 | Exhibición / Taller de streaming</li>
+          </ul>
+        </div>
+        <div class="bg-white/5 p-6 rounded-lg">
+          <h4 class="font-semibold">Tarde</h4>
+          <ul class="mt-3 text-gray-200 space-y-2">
+            <li>13:00 - 15:00 | Rondas eliminatorias</li>
+            <li>15:00 - 16:00 | Semifinales</li>
+            <li>16:30 - 17:30 | Final y premiación</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-4 text-sm text-gray-300">El horario final se confirmará al cerrar inscripciones. Mantente atento a los anuncios escolares.</p>
+    </section>
+
+    <!-- Rules -->
+    <section id="rules" class="mt-12 bg-white/5 p-8 rounded-xl">
+      <h3 class="text-2xl font-bold">Reglas y conducta</h3>
+      <p class="mt-3 text-gray-200">Para asegurar una competencia justa y respetuosa, todas las participantes deben aceptar las siguientes reglas:</p>
+      <ul class="mt-4 space-y-3 text-gray-200">
+        <li>• Comportamiento respetuoso: no se tolerará lenguaje ofensivo ni acoso.</li>
+        <li>• Fair play: cualquier intento de hacer trampa (cheats, hacks) resultará en descalificación inmediata.</li>
+        <li>• Llegar a tiempo: el jugador o equipo que no se presente perderá la partida por incomparecencia.</li>
+        <li>• Edad / autorización: si
